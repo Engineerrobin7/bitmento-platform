@@ -1,92 +1,85 @@
-Bitmento Platform
-A Practical, Project-Driven Learning Platform for Future Engineers
+**Bitmento**
+Project-Driven Programming Education Platform
 
-Bitmento is a modern engineering education platform focused on real-world, project-based programming rather than theoretical memorization.
-Our goal is simple: build developers who can build products.
+Bitmento is a comprehensive open-source platform designed for hands-on programming education. Learners build real-world projects through structured paths, interactive challenges, and integrated AI mentorship, bridging the gap between theory and professional development practices.
 
-🎯 Vision
+Vision and Mission
+Vision: To empower the next generation of developers by providing production-grade project experiences that replicate industry workflows.
 
-To create an education ecosystem where students learn through real projects, collaboration, and industry-aligned challenges, enabling them to become employable, confident engineers.
+Mission: Deliver scalable, accessible learning tools that prioritize practical application, fostering measurable skill progression from novice to deploy-ready engineer.
 
-Learn by building. Learn by doing.
-Not by memorizing syntax.
+Key Features
+Structured Learning Paths: Curated sequences of projects simulating full development cycles, from ideation to deployment.
 
-📌 Key Capabilities
+Interactive Challenges: Granular coding tasks with automated testing, code reviews, and progressive difficulty scaling.
 
-Project-based learning modules
+AI Mentorship: Context-aware guidance powered by advanced language models, offering real-time feedback and optimization suggestions.
 
-Hands-on exercises, coding labs, and real assignments
+Portfolio Integration: Automated project export to GitHub and personal sites, with deployment previews.
 
-Structured learning paths from beginner → advanced
+Collaborative Workspaces: Multi-user environments for pair programming and team-based project simulations.
 
-Progress tracking & personalised learning
+Progress Analytics: Detailed dashboards tracking completion rates, code quality metrics, and skill mastery.
 
-Community collaboration and peer feedback
+Tech Stack
+Category	Technology	Version	Purpose
+Frontend	React with Next.js	14+	UI/UX and server-side rendering
+Backend	Node.js with Express	20+	API layer and business logic
+Database	PostgreSQL	16+	Relational data persistence
+Authentication	Clerk	Latest	Secure user management
+AI Integration	OpenAI API / Grok	Latest	Mentorship and code analysis
+Deployment	Vercel / Docker	Latest	CI/CD and containerization
+Testing	Jest + Cypress	Latest	Unit, integration, E2E testing
+Project Structure
+text
+bitmento/
+├── apps/
+│   ├── web/               # Next.js frontend
+│   │   ├── src/
+│   │   │   ├── app/       # App Router pages
+│   │   │   ├── components/# Reusable UI components
+│   │   │   └── lib/       # Utilities and hooks
+│   │   └── package.json
+│   └── api/               # Express backend
+│       ├── src/
+│       │   ├── routes/    # API endpoints
+│       │   ├── models/    # Database schemas
+│       │   └── middleware/# Auth and validation
+│       └── package.json
+├── packages/
+│   ├── ui/                # Shared components
+│   └── config/            # ESLint, Tailwind configs
+├── docs/                  # Documentation
+├── docker-compose.yml     # Local development
+├── .github/               # Workflows and templates
+├── README.md
+└── package.json           # Root monorepo config
+Roadmap
+Phase	Milestones	Timeline	Status
+Foundation	Core paths, auth, basic challenges	Q4 2025	Complete
+Growth	AI mentorship, analytics, multi-language support	Q1 2026	In Progress
+Scale	Team collab, enterprise integrations, mobile app	Q2-Q3 2026	Planned
+Enterprise	Custom paths, LMS APIs, advanced reporting	Q4 2026+	Planned
+Contributing
+Contributions are welcome. Please follow these steps:
 
-Challenge, Hackathon & Competition ecosystem
+Fork the repository and create a feature branch (git checkout -b feature/AmazingFeature).
 
-AI-powered mentor & doubt assistant (upcoming)
+Commit changes (git commit -m 'Add some AmazingFeature').
 
-Future internship/recruitment integration
+Push to the branch (git push origin feature/AmazingFeature).
 
-🛠 Tech Stack
-Layer	Technologies
-Frontend	React / Next.js / Tailwind CSS
-Backend	Node.js / Express.js
-Database	MongoDB / PostgreSQL
-Deployment	Vercel / Render / Docker
-Version Control	Git / GitHub
-AI (Future)	LLM Integration, custom agents, embeddings
-📁 Project Structure
-bitmento-platform/
-├── public/                     # Static assets
-├── src/
-│   ├── components/             # Reusable UI Components
-│   ├── pages/                  # Pages & Route Screens
-│   ├── modules/                # Feature-level modules
-│   ├── context/                # Global state & Context API
-│   ├── services/               # API service & backend integration
-│   ├── hooks/                  # Custom hooks
-│   ├── utils/                  # Helper utilities
-│   └── styles/                 # Theme & global styles
-├── .gitignore
-├── LICENSE
-├── package.json
-└── README.md
+Open a Pull Request targeting main.
 
-🗺 Product Roadmap
-Stage	Status	Deliverables
-Phase 1 – Foundation	🟡 In Progress	Core UI, Auth, Dashboard
-Phase 2 – Education Core	⏳ Planned	Project courses & submissions
-Phase 3 – Community	⏳ Planned	Profiles, leaderboard, discussions
-Phase 4 – Intelligence Layer	⏳ Future	AI assistant & recommendations engine
-Phase 5 – Scale	⏳ Future	Mobile app, industry partnerships, hiring portal
-🤝 Contributing
+All contributions must adhere to existing code style (run npm run lint before submitting). Review our Code of Conduct.
 
-We welcome contributions from passionate developers, educators, and designers.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-How to Contribute
-git clone https://github.com/bitmento/bitmento-platform.git
-git checkout -b feature/your-feature-name
-git commit -m "Add: feature description"
-git push origin feature/your-feature-name
+Maintainer
+Robin Singh — CTO
+GitHub | LinkedIn | santoshjitu1980@gmail.com
+Vaibhavi R Sawant  - Founder 
 
-
-Then open a Pull Request with a clear description.
-
-Contribution Guidelines
-
-Write clean & maintainable code
-
-Use meaningful commit messages
-
-Discuss major feature changes in Issues
-
-📜 License
-
-Released under the MIT License — free to use, modify, and distribute with credit.
-
-📎 Project Status
-
-Actively in development
-Expect continuous updates, internal testing, and preview releases.
+⭐ Star this repository to support the project.
+🤝 Open to collaborations—reach out via issues or email for partnerships, sponsorships, or custom integrations.
